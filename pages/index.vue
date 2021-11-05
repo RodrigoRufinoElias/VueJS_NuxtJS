@@ -9,6 +9,10 @@
       T2 - Test AsyncData
     </NuxtLink>
     <br>
+    <NuxtLink to="/storeTest/todos">
+      TODOS - Store Test
+    </NuxtLink>
+    <br>
     <NuxtLink to="/about">
       About (internal link that belongs to the Nuxt App)
     </NuxtLink>
