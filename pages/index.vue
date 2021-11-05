@@ -13,6 +13,8 @@
       About (internal link that belongs to the Nuxt App)
     </NuxtLink>
     <br>
+    <NuxtLink to="/about" no-prefetch>About page not pre-fetched</NuxtLink>
+    <br>
     <a href="https://nuxtjs.org">External Link to another page</a>
     <br><br>
     <div>{{ content }}</div>
@@ -46,3 +48,9 @@
     }
   })
 </script>
+
+<style scoped>
+  .nuxt-link-exact-active {
+    color: green;
+  }
+</style>

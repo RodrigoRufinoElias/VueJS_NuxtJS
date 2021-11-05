@@ -2,6 +2,8 @@
   <main>
     <h1>About page with jQuery and Roboto font</h1>
     <HomeLink/>
+    <br>
+    <ButtonsButton rotulo="Botão" tipo="button"/>
   </main>
 </template>
 

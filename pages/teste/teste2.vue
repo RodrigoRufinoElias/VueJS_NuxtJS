@@ -3,7 +3,7 @@
     <h1>T2 - Test AsyncData</h1>
 
     <ul>
-      <li v-for="m of mountains" :key="m.title">{{ m.title }}</li>
+      <ListsSimple v-for="m of mountains" :key="m.title" :rotulo="m.title"/>
     </ul>
 
     <HomeLink/>

@@ -6,7 +6,7 @@
     <p v-else-if="$fetchState.error">Error while fetching mountains</p>
 
     <ul>
-      <li v-for="m of mountains" :key="m.title">{{ m.title }}</li>
+      <ListsSimple v-for="m of mountains" :key="m.title" :rotulo="m.title"/>
     </ul>
 
     <HomeLink/>
